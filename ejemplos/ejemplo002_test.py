@@ -7,3 +7,4 @@ from ejemplos.ejemplo002 import Medicamento
 dolofin = Medicamento("Dolofin", "Dolores")
 print(dolofin.nombre_generico)
 print(dolofin.descripcion)
+

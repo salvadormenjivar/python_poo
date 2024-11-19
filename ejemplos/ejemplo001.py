@@ -11,4 +11,4 @@ class Alumno:
     def pagar(self) -> None:
         # Conectarse a la base de datos
         # Insertar un registro con el pago en la tabla Pago
-        print("Se realiza el pago de la mensualidad")
+        print("Se realiza el pago de lBienvenidosa mensualidad")
