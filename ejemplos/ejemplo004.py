@@ -5,7 +5,7 @@ def sumar(*args):  # *args significa cualquier cantidad de parametros
         resultado += num
     return resultado
 
-print(sumar(1, 2))
+print(sumar(1,2))
 print(sumar(100, 200, 300))
 print(sumar(100, 200, 300, 400, 500))
 

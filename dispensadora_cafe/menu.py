@@ -11,7 +11,7 @@ class Menu:
         opciones = ""
         for cafe in self.menu:
             opciones += cafe.nombre + " | "
-        return opciones
+        return opciones  # Latte |  Expresso | Capuccino
 
     def buscar_cafe(self, nombre_cafe):
         for objeto_cafe in self.menu:
@@ -30,7 +30,5 @@ expresso = Cafe("expresso", 50, 0, 18, 1.5),
 capuccino = Cafe("capuccino", 250, 50, 24, 3)
 
 lista_cafes = [latte, expresso, capuccino]
-
-
 participantes = ["Juan", "Antonio"]
 '''
